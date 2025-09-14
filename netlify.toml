@@ -1,0 +1,14 @@
+# Netlify configuration
+# Ensure redirects are applied reliably in production
+
+[[redirects]]
+  from = "/ga4/*"
+  to   = "https://www.googletagmanager.com/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ga4c/*"
+  to   = "https://www.google-analytics.com/:splat"
+  status = 200
+  force = true
