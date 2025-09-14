@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
   </head>
   <body>
     <header class="site-header">
@@ -52,7 +54,6 @@
             <div class="orb orb-3"></div>
           </div>
         </div>
-        <div class="scroll-indicator">Scroll</div>
       </section>
 
       <!-- About -->
@@ -87,7 +88,8 @@
           <div class="artists-grid">
             <article class="artist-card">
               <h3>Solana Flow</h3>
-              <p class="muted">チルでトロピカルな質感とメロディセンスを特徴とするプロジェクト。コースタル／バレアリック由来のグルーヴで、海風のように軽やかなサウンドスケープを描く。</p>
+              <p class="muted">Solana Flowは、チルでリゾート感あふれる音楽プロジェクト。
+              海風のようなコースタル／バレアリックのグルーヴに、スティールドラムが響くカリビアンのダンサブルなリズムを重ねる。</p>
               <div class="listen-row">
                 <a class="listen-link" href="https://open.spotify.com/intl-ja/artist/0u47IIWosSLGl2Br0DCUCW?si=EVV71WM1RHChWPc_tu_FZg" target="_blank" rel="noopener" aria-label="Solana Flow on Spotify">
                   <svg class="icon-spotify" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 1.5C6.21 1.5 1.5 6.21 1.5 12S6.21 22.5 12 22.5 22.5 17.79 22.5 12 17.79 1.5 12 1.5Zm5.18 14.88a.9.9 0 0 1-1.24.3c-3.4-2.08-7.69-2.55-12.73-1.4a.9.9 0 1 1-.39-1.75c5.42-1.21 10.12-.67 13.86 1.62a.9.9 0 0 1 .5 1.23Zm1.65-3.23a1.12 1.12 0 0 1-1.53.37c-3.89-2.37-9.84-3.06-14.44-1.67a1.12 1.12 0 0 1-.63-2.15c5.19-1.53 11.7-.76 16.1 1.9.53.33.69 1.03.35 1.55Zm.15-3.39c-4.33-2.57-11.51-2.81-15.66-1.66a1.33 1.33 0 0 1-.71-2.56c4.79-1.32 12.62-1.03 17.64 1.93.63.37.85 1.18.49 1.82a1.33 1.33 0 0 1-1.76.47Z"/></svg>
@@ -170,12 +172,13 @@
       <section id="releases" class="section">
         <div class="container">
           <h2 class="section-title">Releases</h2>
-          <p class="muted">Spotifyの埋め込みを追加してください（例：トラック / アルバム / プレイリストの共有 → 埋め込み）</p>
 
           <div class="embed-grid">
             <!-- Example placeholder cards. Replace data-spotify-src with your Spotify embed URL -->
             <div class="embed-card">
               <h4>Tropical Radio Days — Solana Flow（Album）</h4>
+              <p class="release-desc">ラジオから流れるように心地よい、Lo-Fiトロピカルサウンド。
+              Solana Flowが描く、チルでリゾート感あふれる時間。</p>
               <div class="spotify-embed" data-spotify-src="https://open.spotify.com/embed/album/3gmkzYSLgRf9glOAfma0sA?utm_source=generator">
                 <div class="embed-placeholder">
                   <span>Spotify埋め込みを追加</span>
@@ -184,6 +187,7 @@
             </div>
             <div class="embed-card">
               <h4>Loco Playa Azul — NARO</h4>
+              <p class="release-desc">Reggaeton / Moombahtonの熱量で、南国ビーチの解放感をそのままお届け。</p>
               <div class="spotify-embed" data-spotify-src="https://open.spotify.com/embed/track/42Ue13ItYgtR2PjI83m7NC?utm_source=generator">
                 <div class="embed-placeholder">
                   <span>Spotify埋め込みを追加</span>
@@ -192,6 +196,7 @@
             </div>
             <div class="embed-card">
               <h4>Ocean Breeze Express — Rina &amp; The Islanders</h4>
+              <p class="release-desc">海沿いを走る列車の風景を切り取った、爽やかで心がはずむカリビアン×カントリーの一曲。</p>
               <div class="spotify-embed" data-spotify-src="https://open.spotify.com/embed/track/1CrQObjFHpI9dXU4Yc6Ncb?utm_source=generator">
                 <div class="embed-placeholder">
                   <span>Spotify埋め込みを追加</span>
@@ -200,6 +205,7 @@
             </div>
             <div class="embed-card">
               <h4>Fragments in the Groove — Flicker Stone（EP）</h4>
+              <p class="release-desc">クラシカルなロックの骨格に、耳に残るギターフレーズが駆け抜ける、モダン・グルーヴEP。</p>
               <div class="spotify-embed" data-spotify-src="https://open.spotify.com/embed/album/3z67NbpbXA6ZH1VSGWy06d?utm_source=generator">
                 <div class="embed-placeholder">
                   <span>Spotify埋め込みを追加</span>
@@ -208,6 +214,7 @@
             </div>
             <div class="embed-card">
               <h4>ヘタクソでも生きてる — The Clumsy Hearts</h4>
+              <p class="release-desc">不器用でも前に進む勇気をくれる、等身大のエネルギーを詰め込んだロックチューン。</p>
               <div class="spotify-embed" data-spotify-src="https://open.spotify.com/embed/track/6k5fcXCpGYhPzacd2ucdhH?utm_source=generator">
                 <div class="embed-placeholder">
                   <span>Spotify埋め込みを追加</span>
@@ -215,16 +222,6 @@
               </div>
             </div>
           </div>
-
-          <details class="help">
-            <summary>Spotify埋め込みのやり方</summary>
-            <ol>
-              <li>Spotifyアプリ/WEBで楽曲ページを開く</li>
-              <li>「・・・」→ 共有 → 「埋め込みコード」を選択</li>
-              <li>src="..." のURLをコピーし、各カードの data-spotify-src に貼り付け</li>
-              <li>このページを再読み込みすると反映されます</li>
-            </ol>
-          </details>
         </div>
       </section>
 
@@ -273,7 +270,7 @@
           <div class="card glass">
             <h2>Contact</h2>
             <p class="muted">コラボ・配信・ライセンスのお問い合わせ</p>
-            <a class="btn primary" href="mailto:contact@sonotica.ai">contact@sonotica.ai</a>
+            <a class="btn primary" href="mailto:sonotica.ai@gmail.com">sonotica.ai@gmail.com</a>
           </div>
           <div class="card glass">
             <h3>Social</h3>
