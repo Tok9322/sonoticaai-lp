@@ -21,7 +21,8 @@
       function gtag(){dataLayer.push(arguments);} 
       gtag('js', new Date());
       // Route GA hits through our domain to avoid DNS/content blockers
-      gtag('config', 'G-W7G4VW77FY', { transport_url: '/ga4/collect' });
+      // Note: '/ga4c/g/collect' proxies to 'https://www.google-analytics.com/g/collect' via _redirects
+      gtag('config', 'G-W7G4VW77FY', { transport_url: '/ga4c/g/collect' });
     </script>
   </head>
   <body>
