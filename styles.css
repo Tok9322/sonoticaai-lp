@@ -110,6 +110,15 @@ nav a:hover { color: var(--primary); }
 .orb-2 { width: 180px; height: 180px; right: 5%; top: 10%; background: radial-gradient(circle at 70% 30%, #60a5fa, transparent 60%); animation: float 10s ease-in-out infinite reverse; }
 .orb-3 { width: 140px; height: 140px; right: 20%; bottom: -10%; background: radial-gradient(circle at 50% 50%, #f472b6, transparent 60%); animation: float 12s ease-in-out infinite; }
 
+/* Featured block in hero */
+.featured-hero { margin: 20px auto 0; background: var(--glass); border: 1px solid var(--primary); border-radius: 16px; padding: 16px; box-shadow: var(--shadow), 0 0 0 2px rgba(25, 211, 179, 0.12); max-width: 560px; }
+.featured-head { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+.featured-pill { display: inline-block; padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,0.06); border: 1px solid var(--glass-border); font-size: 12px; font-weight: 900; letter-spacing: 0.06em; color: var(--fg); }
+.featured-pill.is-primary { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: #05221a; border-color: transparent; box-shadow: 0 0 0 2px rgba(25, 211, 179, 0.18); }
+.featured-pill.is-outline { background: transparent; color: var(--fg); border-color: var(--primary); box-shadow: 0 0 0 2px rgba(25, 211, 179, 0.10) inset; }
+.featured-title { font-weight: 800; font-size: 18px; letter-spacing: -0.01em; }
+.featured-artist { color: var(--muted); font-weight: 700; }
+
 @keyframes float {
   0%, 100% { transform: translateY(0) translateX(0); }
   50% { transform: translateY(-12px) translateX(6px); }
